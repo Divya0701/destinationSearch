@@ -1,0 +1,38 @@
+.ItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.ItemName {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #252627;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    width: 90vw;
+  }
+  .ItemName {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .image {
+    width: 45vw;
+  }
+  .ItemName {
+    font-size: 14px;
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 992px) {
+  .image {
+    width: 20vw;
+  }
+  .ItemName {
+    font-size: 16px;
+    align-self: flex-start;
+  }
+}
